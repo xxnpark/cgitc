@@ -74,8 +74,8 @@ gga                  git gui citool --amend
 #ggu
 
 #ggpur                ggu
-#ggpull               git pull origin "$(git_current_branch)"
-#ggpush               git push origin "$(git_current_branch)"
+ggpull               git pull origin "$(git_current_branch)"
+ggpush               git push origin "$(git_current_branch)"
 
 #ggsup                git branch --set-upstream-to=origin/$(git_current_branch)
 #gpsup                git push --set-upstream origin $(git_current_branch)
@@ -191,9 +191,10 @@ gbm                  git branch -m
 gcaa                 git commit -v -a --amend
 gdl                  git difftool
 gds                  git diff --stat
-ggpush               git push --set-upstream origin HEAD
+#ggpush               git push --set-upstream origin HEAD
 gp!                  git push --force-with-lease
 grhd                 git reset HEAD
+grhdc                git reset HEAD^
 grhhd                git reset --hard HEAD
 grhh1                git reset --hard HEAD~1
 gsta                 git stash
