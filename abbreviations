@@ -37,6 +37,7 @@ gcl                  git clone --recurse-submodules
 gclean               git clean -id
 #gpristine            git reset --hard && git clean -dfx
 gcm                  git checkout master
+gcma                 git checkout main
 gcd                  git checkout develop
 gcmsg                git commit -m
 gco                  git checkout
